@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cd1041d-1e67-41b8-9fe0-1b4ba702e280" name="Default Changelist" comment="" />
+    <list default="true" id="5cd1041d-1e67-41b8-9fe0-1b4ba702e280" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/twitch-dashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/my-app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1qnVJ0wHYa6z9a3qIgBLlRXBQWa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -19,8 +36,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -49,29 +69,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617715265786</updated>
-      <workItem from="1617715268982" duration="797000" />
+      <workItem from="1617715268982" duration="8285000" />
+      <workItem from="1617728917245" duration="3856000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/my-app" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1724" height="264" key="GridCell.Tab.0.bottom" timestamp="1617715712975">
+    <state x="695" y="302" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1617718130186">
       <screen x="0" y="0" width="1890" height="1024" />
     </state>
-    <state width="1724" height="264" key="GridCell.Tab.0.bottom/0.0.1890.1024@0.0.1890.1024" timestamp="1617715712975" />
-    <state width="1724" height="264" key="GridCell.Tab.0.center" timestamp="1617715712975">
+    <state x="695" y="302" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1890.1024@0.0.1890.1024" timestamp="1617718130186" />
+    <state width="1734" height="264" key="GridCell.Tab.0.bottom" timestamp="1617731165140">
       <screen x="0" y="0" width="1890" height="1024" />
     </state>
-    <state width="1724" height="264" key="GridCell.Tab.0.center/0.0.1890.1024@0.0.1890.1024" timestamp="1617715712975" />
-    <state width="1724" height="264" key="GridCell.Tab.0.left" timestamp="1617715712975">
+    <state width="1734" height="264" key="GridCell.Tab.0.bottom/0.0.1890.1024@0.0.1890.1024" timestamp="1617731165140" />
+    <state width="1734" height="264" key="GridCell.Tab.0.center" timestamp="1617731165140">
       <screen x="0" y="0" width="1890" height="1024" />
     </state>
-    <state width="1724" height="264" key="GridCell.Tab.0.left/0.0.1890.1024@0.0.1890.1024" timestamp="1617715712975" />
-    <state width="1724" height="264" key="GridCell.Tab.0.right" timestamp="1617715712975">
+    <state width="1734" height="264" key="GridCell.Tab.0.center/0.0.1890.1024@0.0.1890.1024" timestamp="1617731165140" />
+    <state width="1734" height="264" key="GridCell.Tab.0.left" timestamp="1617731165140">
       <screen x="0" y="0" width="1890" height="1024" />
     </state>
-    <state width="1724" height="264" key="GridCell.Tab.0.right/0.0.1890.1024@0.0.1890.1024" timestamp="1617715712975" />
+    <state width="1734" height="264" key="GridCell.Tab.0.left/0.0.1890.1024@0.0.1890.1024" timestamp="1617731165140" />
+    <state width="1734" height="264" key="GridCell.Tab.0.right" timestamp="1617731165140">
+      <screen x="0" y="0" width="1890" height="1024" />
+    </state>
+    <state width="1734" height="264" key="GridCell.Tab.0.right/0.0.1890.1024@0.0.1890.1024" timestamp="1617731165140" />
+    <state x="497" y="165" key="SettingsEditor" timestamp="1617718144675">
+      <screen x="0" y="0" width="1890" height="1024" />
+    </state>
+    <state x="497" y="165" key="SettingsEditor/0.0.1890.1024@0.0.1890.1024" timestamp="1617718144675" />
+    <state x="423" y="112" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1617732091877">
+      <screen x="0" y="0" width="1890" height="1024" />
+    </state>
+    <state x="423" y="112" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1890.1024@0.0.1890.1024" timestamp="1617732091877" />
   </component>
 </project>
