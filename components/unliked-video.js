@@ -27,7 +27,7 @@ export default function UnlikedVideo({thumbnail_url, title, url, likedVideos, se
     })
     if (isAlreadyLiked) return
 
-    setLikedVideos([...likedVideos, {thumbnail_url, title, url}])
+    setLikedVideos([{thumbnail_url, title, url}, ...likedVideos])
   }
 
   return (

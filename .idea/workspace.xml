@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5cd1041d-1e67-41b8-9fe0-1b4ba702e280" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/search-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/search-bar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/liked.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/liked.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
       <workItem from="1617715268982" duration="8285000" />
       <workItem from="1617728917245" duration="6282000" />
       <workItem from="1617794819694" duration="52000" />
-      <workItem from="1617794878457" duration="5074000" />
+      <workItem from="1617794878457" duration="6762000" />
     </task>
     <servers />
   </component>
@@ -88,22 +84,22 @@
       <screen x="0" y="0" width="1890" height="1024" />
     </state>
     <state x="695" y="302" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1890.1024@0.0.1890.1024" timestamp="1617718130186" />
-    <state width="1753" height="264" key="GridCell.Tab.0.bottom" timestamp="1617799277077">
+    <state width="1753" height="264" key="GridCell.Tab.0.bottom" timestamp="1617800668223">
       <screen x="0" y="0" width="1890" height="1024" />
     </state>
-    <state width="1753" height="264" key="GridCell.Tab.0.bottom/0.0.1890.1024@0.0.1890.1024" timestamp="1617799277077" />
-    <state width="1753" height="264" key="GridCell.Tab.0.center" timestamp="1617799277076">
+    <state width="1753" height="264" key="GridCell.Tab.0.bottom/0.0.1890.1024@0.0.1890.1024" timestamp="1617800668223" />
+    <state width="1753" height="264" key="GridCell.Tab.0.center" timestamp="1617800668223">
       <screen x="0" y="0" width="1890" height="1024" />
     </state>
-    <state width="1753" height="264" key="GridCell.Tab.0.center/0.0.1890.1024@0.0.1890.1024" timestamp="1617799277076" />
-    <state width="1753" height="264" key="GridCell.Tab.0.left" timestamp="1617799277076">
+    <state width="1753" height="264" key="GridCell.Tab.0.center/0.0.1890.1024@0.0.1890.1024" timestamp="1617800668223" />
+    <state width="1753" height="264" key="GridCell.Tab.0.left" timestamp="1617800668223">
       <screen x="0" y="0" width="1890" height="1024" />
     </state>
-    <state width="1753" height="264" key="GridCell.Tab.0.left/0.0.1890.1024@0.0.1890.1024" timestamp="1617799277076" />
-    <state width="1753" height="264" key="GridCell.Tab.0.right" timestamp="1617799277076">
+    <state width="1753" height="264" key="GridCell.Tab.0.left/0.0.1890.1024@0.0.1890.1024" timestamp="1617800668223" />
+    <state width="1753" height="264" key="GridCell.Tab.0.right" timestamp="1617800668223">
       <screen x="0" y="0" width="1890" height="1024" />
     </state>
-    <state width="1753" height="264" key="GridCell.Tab.0.right/0.0.1890.1024@0.0.1890.1024" timestamp="1617799277076" />
+    <state width="1753" height="264" key="GridCell.Tab.0.right/0.0.1890.1024@0.0.1890.1024" timestamp="1617800668223" />
     <state x="497" y="165" key="SettingsEditor" timestamp="1617794870585">
       <screen x="0" y="0" width="1890" height="1024" />
     </state>

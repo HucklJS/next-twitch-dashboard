@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout from  '../components/layout'
-import Video from  '../components/video'
+import LikedVideo from  '../components/liked-video'
 import styled from 'styled-components'
 import React from "react"
 import Link from "next/link"
@@ -19,7 +19,7 @@ const VideosContainer = styled.div`
   padding: 20px 0
 `
 
-export default function Liked({likedVideos}) {
+export default function Liked({likedVideos, setLikedVideos}) {
   return (
     <>
       <Head>
@@ -36,7 +36,12 @@ export default function Liked({likedVideos}) {
       <VideosContainer>
         <Layout>
           {likedVideos.map(video => {
-            return <Video {...video} key={video.url}/>
+            return <LikedVideo
+              {...video}
+              key={video.url}
+              likedVideos={likedVideos}
+              setLikedVideos={setLikedVideos}
+            />
           })}
         </Layout>
       </VideosContainer>

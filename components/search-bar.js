@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Link from 'next/link'
+import getData from  '../frontend-api/get-data'
 
 const SearchBarText = styled.span`
   display: inline-block;
@@ -32,24 +33,19 @@ export default function SearchBar({chanelName, setChanelName,
     setChanelName(e.target.value)
   }
 
-  function getData(fetchLink) {
-    return fetch(fetchLink, {
-      headers: new Headers({
-        'Authorization': 'Bearer 2s2k2hv9lnmfj8ov1rmttv91l9q8vb',
-        'Client-Id': 's48uvny0btj4xnmgv8gakjby24il18'
-      })
-    })
-      .then(res => res.json())
-  }
+
 
   function find() {
-    const fetchLinkToUserId = 'https://api.twitch.tv/helix/users?login=lck'
+    const fetchLinkToUserId =
+      `https://api.twitch.tv/helix/users?login=${chanelName.toLowerCase()}`
 
     // first get user_id
     getData(fetchLinkToUserId)
       .then(({data}) => {
+        if (!data.length) throw new Error('didn\'t find user')
         const user_id = data[0].id
-        const fetchLinkToUserVideos = `https://api.twitch.tv/helix/videos?user_id=${user_id}`
+        const fetchLinkToUserVideos =
+          `https://api.twitch.tv/helix/videos?user_id=${user_id}`
         // second get last videos
         return getData(fetchLinkToUserVideos)
       })
@@ -65,6 +61,7 @@ export default function SearchBar({chanelName, setChanelName,
 
         setVideos(videosFromData)
       })
+      .catch(err => console.log(err))
   }
 
   return (
