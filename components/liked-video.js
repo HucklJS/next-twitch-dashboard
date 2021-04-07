@@ -27,7 +27,9 @@ export default function LikedVideo({thumbnail_url, title, url, likedVideos, setL
     })
     if (index == null) return
 
-    setLikedVideos([...likedVideos.slice(0, index), ...likedVideos.slice(index + 1)])
+    const newLikedVideos = [...likedVideos.slice(0, index), ...likedVideos.slice(index + 1)]
+    localStorage.setItem('likedVideos', JSON.stringify(newLikedVideos))
+    setLikedVideos(newLikedVideos)
   }
 
   return (

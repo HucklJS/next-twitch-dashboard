@@ -27,7 +27,9 @@ export default function UnlikedVideo({thumbnail_url, title, url, likedVideos, se
     })
     if (isAlreadyLiked) return
 
-    setLikedVideos([{thumbnail_url, title, url}, ...likedVideos])
+    const newLikedVideos = [{thumbnail_url, title, url}, ...likedVideos]
+    localStorage.setItem('likedVideos', JSON.stringify(newLikedVideos))
+    setLikedVideos(newLikedVideos)
   }
 
   return (

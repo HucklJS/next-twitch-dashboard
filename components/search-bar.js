@@ -33,9 +33,10 @@ export default function SearchBar({chanelName, setChanelName,
     setChanelName(e.target.value)
   }
 
-
-
   function find() {
+    if (chanelName === '') {
+      return alert('Please input chanel name')
+    }
     const fetchLinkToUserId =
       `https://api.twitch.tv/helix/users?login=${chanelName.toLowerCase()}`
 
@@ -50,6 +51,7 @@ export default function SearchBar({chanelName, setChanelName,
         return getData(fetchLinkToUserVideos)
       })
       .then(({data}) => {
+        if (!data.length) throw new Error(`didn't find ${chanelName}\'s videos`)
         // create an array of videos
         const videosFromData = data.map(({thumbnail_url, title, url}) => ({
           thumbnail_url: thumbnail_url
@@ -61,7 +63,7 @@ export default function SearchBar({chanelName, setChanelName,
 
         setVideos(videosFromData)
       })
-      .catch(err => console.log(err))
+      .catch(err => alert(err))
   }
 
   return (
