@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout from  '../components/layout'
 import SearchBar from  '../components/search-bar'
-import Video from  '../components/video'
+import UnlikedVideo from  '../components/unliked-video'
 import styled from 'styled-components'
 import React from "react"
 
@@ -15,11 +15,9 @@ const VideosContainer = styled.div`
 `
 
 
-export default function Home() {
-  const [chanelName, setChanelName] = React.useState('')
-  const [videos, setVideos] = React.useState([])
-
-
+export default function Home({chanelName, setChanelName,
+                               videos, setVideos,
+                               likedVideos, setLikedVideos}) {
 
   const searchBarProps = {
     chanelName,
@@ -29,7 +27,6 @@ export default function Home() {
 
   return (
       <>
-
         <Head>
           <title>Search twitch videos</title>
           <link rel="icon" href="/favicon.ico" />
@@ -42,11 +39,15 @@ export default function Home() {
         <VideosContainer>
           <Layout>
             {videos.map(video => {
-              return <Video {...video}/>
+              return <UnlikedVideo
+                {...video}
+                key={video.url}
+                likedVideos={likedVideos}
+                setLikedVideos={setLikedVideos}
+              />
             })}
           </Layout>
         </VideosContainer>
-
       </>
   )
 }

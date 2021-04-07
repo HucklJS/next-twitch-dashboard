@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Link from 'next/link'
 
 const SearchBarText = styled.span`
   display: inline-block;
@@ -11,10 +12,18 @@ const SearchBarInput = styled.input`
   margin-right: 15px;
 `
 
-const FindBnt = styled.button`
+const Btn = styled.button`
   padding: 3px 10px;
   margin-right: 15px;
 `
+
+const FindBnt = styled(Btn)`
+`
+
+const ToLikedVideosBtn = styled(Btn)`
+  margin-left: 330px;
+`
+
 
 export default function SearchBar({chanelName, setChanelName,
                                     setVideos}) {
@@ -45,7 +54,7 @@ export default function SearchBar({chanelName, setChanelName,
         return getData(fetchLinkToUserVideos)
       })
       .then(({data}) => {
-        // create array of videos
+        // create an array of videos
         const videosFromData = data.map(({thumbnail_url, title, url}) => ({
           thumbnail_url: thumbnail_url
             .replace('%{width}', '308')
@@ -68,6 +77,9 @@ export default function SearchBar({chanelName, setChanelName,
         onChange={onInputChange}
       />
       <FindBnt onClick={find}>Find</FindBnt>
+      <Link href="/liked">
+        <ToLikedVideosBtn>go to liked</ToLikedVideosBtn>
+      </Link>
     </div>
   )
 }
